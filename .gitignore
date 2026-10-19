@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+watchlist.json
+approved_signals.json
+events.csv
+trial_feedback.csv
+*.log
