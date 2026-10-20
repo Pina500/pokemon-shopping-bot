@@ -9,3 +9,17 @@ approved_signals.json
 events.csv
 trial_feedback.csv
 *.log
+
+# Windows trial state and telemetry are user data, never source code.
+tasks-v11.json
+events-v12.jsonl
+supervisor-v13.jsonl
+PokemonBotLab/
+
+# Other local state and browser test artifacts.
+*.pid
+*.sqlite
+*.sqlite3
+*.db
+playwright-report/
+test-results/
